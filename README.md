@@ -10,7 +10,7 @@
  ## Slider:
  * [Slider Katalon Group 7](https://docs.google.com/presentation/d/1-l0uqTOIUgzIKVo_6RzDPyhNBd99lPZfURSmB5d1hEs/edit?usp=sharing)
  ## Link download:
-   - Appium: http://appium.io/
+   - Appium: (https://katalon.com/download/)
    - Genimotion (máy ảo giả lập android): https://www.genymotion.com/
    - Eclipse: https://www.eclipse.org/downloads/
    - Android studio: https://developer.android.com/studio
