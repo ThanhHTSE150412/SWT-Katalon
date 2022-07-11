@@ -15,8 +15,8 @@
  ## Youtube Link Instruction:
  https://www.youtube.com/watch?v=7Sv_mhQyxR0
  ## Deployment Guildline:
- [Guidline](https://docs.google.com/document/d/1LHZndzK2ZC1wJNcmKcnHZuuSiB-YHIMGS55eDljX3nI/edit?fbclid=IwAR3w4DctK2twquyidAXloVv_J8ZQxTmmcmgWgDR5UUpX9TIuWv-xXvJf3P8)
- ## Appium: 
+ [Guidline](https://docs.google.com/document/d/1jW0I-6wZLPiOwfxcUbjrglqYn3UY59J6xYSSi5_jD1I/edit?usp=sharing)
+ ## Katalon: 
  
 ![image](https://user-images.githubusercontent.com/105283138/178245810-d8cff874-20b6-4a09-b9e1-e530fc34efd6.png)
 
