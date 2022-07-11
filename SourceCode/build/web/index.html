@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title>Linear Equation</title>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" language="javascript">
+            function giai_pt_bac_nhat(a, b)
+            {
+                if (a == 0 && b == 0) {
+                    var x = "Infinity solution";
+                    document.getElementById("e1").innerHTML = "x = " + x;
+                } else if (a != 0 && b == 0) {
+                    document.getElementById("e1").innerHTML = "x = 0";
+                } else if (a == 0 && b != 0) {
+                    document.getElementById("e1").innerHTML = "No solution";
+                } else {
+                    document.getElementById("e1").innerHTML = "x = " + (- b / a);
+                }
+            }
+        </script>
+    </head>
+
+    <body style="background-image: url('1.png')">
+        <div class="box">
+            <h1> ax + b = 0</h1>
+            <form name="nhap">
+                Factor a:
+                <input type="text" id="a" value=""/>
+                <p>
+                    Factor b:
+                    <input type="text" id="b" value=""/>
+                </p>
+                <h2> 
+                    Result:<span id="e1"></span>
+                </h2>
+                <p>
+                    <input type="button" value="Solve" id="giaiBtn">
+                </p>
+                <p>
+                    <input type="button" value="Reset" onclick="location.href = 'index.html'" />
+                </p>
+
+            </form>
+        </div>
+
+    </body>
+
+
+    <script>
+        var button = document.getElementById('giaiBtn');
+        giaiBtn.onclick = function () {
+            let a = document.getElementById('a').value;
+            let b = document.getElementById('b').value;
+
+            if (a == "" || b == "") {
+                document.getElementById("e1").innerHTML = "Please input factor";
+            } else {
+                a = Number(a);
+                b = Number(b);
+                giai_pt_bac_nhat(a, b);
+            }
+        };
+
+        function giai_pt_bac_nhat(a, b)
+        {
+            if (a != 0 && b == 0) {
+                document.getElementById("e1").innerHTML = "Infinity solution";
+            } else if (a != 0 && b == 0) {
+                document.getElementById("e1").innerHTML = "x = 0";
+            } else if (a == 0 && b != 0) {
+                document.getElementById("e1").innerHTML = "No solution";
+            } else {
+                document.getElementById("e1").innerHTML = "x = " + (- b / a);
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box }
+        html, body {
+            display: table;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #eee;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .box {
+            margin: auto;
+            padding: 25px 50px;
+            width: 350px;
+            min-height: 115px;
+            background: #fff;
+            border-left: 5px solid #9b2;
+            box-shadow: 0 0 20px rgba(0,0,0,.15);
+            font: 12px/15px Arial, Helvetica, sans-serif;
+            color: #666;
+        }
+        h2 {
+            margin: 0 10px;
+            line-height: 40px;
+        }
+        form {
+            padding: 0 10px 10px;
+        }
+        form::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        label {
+            position: absolute;
+            left: -9999px;
+        }
+        input {
+            position: relative;
+            z-index: 10;
+            margin: 0;
+            padding: 0 5px;
+            width: 225px;
+            height: 30px;
+            border: 1px solid #ccc;
+        }
+        input:focus {
+            z-index: 15;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            outline: 0;
+        }
+        #password {
+            top:-1px;
+            margin-bottom: 5px;
+        }
+        .register-form {
+            display: none;
+        }
+        .register-form input {
+            margin: -1px 0;
+        }
+        #first-name {
+            margin-top: 5px;
+        }
+        .captcha {
+            margin: 10px 0;
+        }
+        .captcha label {
+            position: relative;
+            left: 0;
+        }
+        #submit {
+            float: right;
+            padding: 0;
+            width: 75px;
+            background: #9b2;
+            color: #140;
+            border-color: #471;
+        }
+        #submit:hover {
+            color: #025;
+            background: #28e;
+            border-color: #16c;
+        }
+        #submit ~ a {
+            display: block;
+            float: left;
+            width: 120px;
+            text-decoration: none;
+            color: #666;
+        }
+        #submit ~ a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>

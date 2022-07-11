@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase_DataText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ecd72dc-03b1-4160-9f0f-dc435841acf4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8d912f8-b4e2-47b1-ad23-c0a37b007062</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9001f0f1-746f-4538-a6b5-adf1ac29af8a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9e1f86a-3a45-4333-8868-a34085b9b85f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8d912f8-b4e2-47b1-ad23-c0a37b007062</id>
+      <masked>false</masked>
+      <name>factor_a</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9001f0f1-746f-4538-a6b5-adf1ac29af8a</id>
+      <masked>false</masked>
+      <name>factor_b</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9e1f86a-3a45-4333-8868-a34085b9b85f</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+</TestCaseEntity>

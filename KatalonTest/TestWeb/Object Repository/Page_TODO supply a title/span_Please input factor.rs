@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Please input factor</name>
+   <tag></tag>
+   <elementGuidId>4e231661-6a9b-4976-816d-3b1ec10560ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#e1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='e1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>67833c91-d0d3-4e82-a28a-da137f291583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>e1</value>
+      <webElementGuid>d6381923-5d15-45ef-b7ca-d4ede924aa44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please input factor</value>
+      <webElementGuid>03319e04-7071-4ca7-bc39-61bc1c9e7f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e1&quot;)</value>
+      <webElementGuid>ae7c8cfd-2d85-4abd-92bf-b5b470531e49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='e1']</value>
+      <webElementGuid>aeb136a4-af95-4656-8db2-867e9194247e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'e1', '&quot;', ')')])[1]/preceding::span[1]</value>
+      <webElementGuid>cd53cd0f-6442-4c0b-8bcd-0299c8503920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please input factor']/parent::*</value>
+      <webElementGuid>ffe5bbcf-187a-4420-a2cb-540f9260e135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>76c235d5-7e6e-4bf2-92e9-43456f1f5f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'e1' and (text() = 'Please input factor' or . = 'Please input factor')]</value>
+      <webElementGuid>60fc9c15-55fd-41f3-b8b3-0cf6e55dc009</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

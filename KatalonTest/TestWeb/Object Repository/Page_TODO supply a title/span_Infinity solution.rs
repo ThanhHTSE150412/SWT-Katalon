@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Infinity solution</name>
+   <tag></tag>
+   <elementGuidId>11415965-0024-49da-87e8-7a6f3ccdfabc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#e1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='e1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e376de9f-b755-4de1-91e6-6f93c185f0a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>e1</value>
+      <webElementGuid>ce935cf7-77da-4307-a6bc-2699bf0ea9ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Infinity solution</value>
+      <webElementGuid>57b2db25-d782-463e-8c67-e4ebeda43965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e1&quot;)</value>
+      <webElementGuid>45aec069-96ad-46a3-9021-4df1186fe659</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='e1']</value>
+      <webElementGuid>f5b19677-eb6b-4494-87e7-d863a759dfb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'e1', '&quot;', ')')])[1]/preceding::span[1]</value>
+      <webElementGuid>63317a4d-4d6d-4ee2-b496-49f7e645f5c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Infinity solution']/parent::*</value>
+      <webElementGuid>3336ba61-369f-4a9f-9397-c8ebff035576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>a16f24d2-37fc-4584-9fc2-79d7ee8d41d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'e1' and (text() = 'Infinity solution' or . = 'Infinity solution')]</value>
+      <webElementGuid>73823ed7-fa93-4f5a-ad72-dabb73d42bbb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
